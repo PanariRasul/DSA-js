@@ -1,0 +1,34 @@
+<!-- 
+    *Basic DOM Manipulation:*
+    * Change the text of a paragraph on a webpage using JavaScript. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manuplination</title>
+</head>
+
+<body>
+    <h1>Heading</h1>
+    <p id="disc">A highly motivated and detail-oriented Full Stack Web Developer with a strong foundation in both
+        frontend
+        and backend technologies. Experienced in designing and implementing responsive web interfaces using HTML,
+        CSS, and React.js, as well as developing RESTful APIs and managing databases with Node.js, Express, and
+        MongoDB. Adept at working in Agile environments, with a proven track record of enhancing application
+        performance and user experience. Enthusiastic about continuous learning and passionate about delivering
+        innovative solutions.</p>
+
+    <script>
+        let paragraph = document.getElementById("disc");
+
+        paragraph.textContent = "Pragraph information will changed using java script";
+
+        console.log(paragraph);
+    </script>
+</body>
+
+</html>
